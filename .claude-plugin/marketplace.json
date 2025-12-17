@@ -13,6 +13,16 @@
         "name": "wlab"
       },
       "category": "productivity"
+    },
+    {
+      "name": "plugin-creator",
+      "source": "./plugins/plugin-creator",
+      "description": "Tools for creating Claude Code extensions including skills, hooks, slash commands, and sub-agents",
+      "version": "1.0.0",
+      "author": {
+        "name": "wlab"
+      },
+      "category": "development"
     }
   ]
 }
