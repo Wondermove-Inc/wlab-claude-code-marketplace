@@ -22,9 +22,9 @@ plugins/
 
 Git 커밋 워크플로우를 위한 명령어 모음입니다.
 
-| 명령어 | 설명 |
-|--------|------|
-| `/commit-commands:commit` | 현재 변경사항으로 git commit 생성 |
+| 명령어                        | 설명                                     |
+| ----------------------------- | ---------------------------------------- |
+| `/commit-commands:commit`     | 현재 변경사항으로 git commit 생성        |
 | `/commit-commands:clean_gone` | 원격에서 삭제된 로컬 브랜치([gone]) 정리 |
 
 ## 마켓플레이스 등록
@@ -44,6 +44,7 @@ claude plugin install <plugin-name> --from wlab-claude-code-marketplace
 ```
 
 예시:
+
 ```bash
 claude plugin install commit-commands --from wlab-claude-code-marketplace
 ```
@@ -52,8 +53,7 @@ claude plugin install commit-commands --from wlab-claude-code-marketplace
 
 1. `plugins/` 디렉토리에 새 플러그인 폴더 생성
 2. `.claude-plugin/plugin.json` 파일 작성
-3. `commands/` 디렉토리에 명령어 마크다운 파일 추가
-4. `marketplace.json`에 플러그인 등록
+3. `marketplace.json`에 플러그인 등록
 
 ## 라이선스
 

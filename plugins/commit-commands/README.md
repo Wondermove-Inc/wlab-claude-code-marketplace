@@ -15,12 +15,14 @@ claude plugin install commit-commands --from wlab-claude-code-marketplace
 현재 변경사항을 기반으로 git commit을 생성합니다.
 
 **기능:**
+
 - 현재 git status 확인
 - staged/unstaged 변경사항 분석
 - 적절한 커밋 메시지 자동 생성
 - 변경사항 스테이징 및 커밋
 
 **사용 예시:**
+
 ```
 /commit-commands:commit
 ```
@@ -30,11 +32,13 @@ claude plugin install commit-commands --from wlab-claude-code-marketplace
 원격에서 삭제된 로컬 브랜치(`[gone]`)를 정리합니다.
 
 **기능:**
+
 - `[gone]` 상태인 브랜치 탐지
 - 연결된 worktree 자동 제거
 - 브랜치 삭제
 
 **사용 예시:**
+
 ```
 /commit-commands:clean_gone
 ```
@@ -42,4 +46,3 @@ claude plugin install commit-commands --from wlab-claude-code-marketplace
 ## 버전
 
 - **현재 버전:** 1.0.0
-- **작성자:** Wondermove
